@@ -331,10 +331,10 @@ a:active {
     About start
 --*/
 .about .content h3 {
-  font-size: 26px;
+  font-size: 16px;
   font-weight: 300;
-  line-height: 36px;
-  color: #7e7e7e;
+  line-height: 34px;
+  color: #323232;
   margin-bottom: 20px;
   font-family: 'Droid Serif', serif; }
 
@@ -441,3 +441,29 @@ footer {
       footer p a:hover {
         color: #fff;
         text-decoration: none; }
+.container .block h2 {
+  font-size: 28px;
+}
+.container .block h1 {
+  font-size: 28px;
+}
+.container .block p{
+  
+}
+.contact .block .heading h2{
+  font-size: 28px;
+}
+#service .heading h2{
+  font-size: 28px;
+}
+#service .heading p{
+  font-size: 16px;
+  color: #323232;
+}
+.call-to-action .block p{
+  font-size: 16px;
+}
+#contact .heading p{
+  font-size: 22px;
+
+}
