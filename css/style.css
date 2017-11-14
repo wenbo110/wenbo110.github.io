@@ -283,7 +283,8 @@ a:active {
   border: 0; }
   .navigation .navbar-brand {
     padding-top: 5px;
-    display: inline-block; }
+    display: inline-block; 
+    float: left;}
   .navigation .navbar-toggler {
     background: #fff;
     outline: none;
@@ -292,6 +293,13 @@ a:active {
     .navigation .navbar-toggler i {
       font-size: 22px; }
 
+ #top-nav .navbar-font{
+  float: left;
+    font-size: 20px;
+    color: #00afb5;
+    font-weight: bold;
+    padding-top: 6px;
+  }
 .navigation.animated {
   background-color: #fff;
   box-shadow: 0 2px 7px 0px rgba(142, 142, 142, 0.15); }
@@ -301,7 +309,9 @@ a:active {
 .menu li a {
   color: #fff;
   font-size: 16px;
-  font-weight: bold; }
+  font-weight: bold; 
+  float: left;
+}
   .menu li a:hover, .menu li a:focus {
     background: none; }
 
@@ -465,5 +475,9 @@ footer {
 }
 #contact .heading p{
   font-size: 22px;
+
+}
+#navbarResponsive li a{
+  padding-top: 20px;
 
 }
